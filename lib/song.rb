@@ -48,7 +48,7 @@ class Song
     array = filename.split("-")
     artist_name = array[0].strip
     name = array[1].strip.chomp('.mp3')
-    
+    self.create(name, artist_name)
   end
 
 end
