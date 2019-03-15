@@ -39,11 +39,7 @@ class Song
   end
 
   def self.alphabetical
-    binding.pry
-    list = self.all.collect do |song|
-      song.name
-    end
-    list.sort
+    list = self.all.collect {|song| song.name}.sort
   end
 
 end
