@@ -50,4 +50,8 @@ class Song
     self.create(name, artist_name)
   end
 
+  def self.create_from_filename(filename)
+    
+  end
+
 end
