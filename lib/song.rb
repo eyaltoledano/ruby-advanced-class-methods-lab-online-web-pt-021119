@@ -40,7 +40,10 @@ class Song
 
   def self.alphabetical
     binding.pry
-    self.all.sort
+    list = self.all.collect do |song|
+      song.name
+    end
+    list.sort
   end
 
 end
