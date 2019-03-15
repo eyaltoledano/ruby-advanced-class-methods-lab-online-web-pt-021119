@@ -40,7 +40,7 @@ class Song
 
   def self.alphabetical
     binding.pry
-    self.class.all.order
+    self.all.order
   end
 
 end
