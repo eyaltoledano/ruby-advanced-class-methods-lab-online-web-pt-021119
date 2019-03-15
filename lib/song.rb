@@ -51,7 +51,7 @@ class Song
   end
 
   def self.create_from_filename(filename)
-    if filename.include(".mp3") && array.include("-")
+    if filename.include?(".mp3") && array.include("-")
       self.new_from_filename(filename)
     end
   end
