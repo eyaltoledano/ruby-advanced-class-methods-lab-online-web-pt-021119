@@ -42,6 +42,6 @@ class Song
     self.all.sort_by {|song| sort.name}
   end
 
-  
+
 
 end
